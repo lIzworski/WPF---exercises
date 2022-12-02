@@ -1,0 +1,26 @@
+﻿<Window x:Class="Kolory.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kolory"
+        xmlns:mw="clr-namespace:Kolory.ModelWidoku"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="150" Width="500">
+    <Window.DataContext>
+        <mw:ModelWidokuMPAM />
+    </Window.DataContext>
+    <Window.Resources>
+        <local:DoubleToBrushConverter x:Key="d2b"/>
+    </Window.Resources>
+    <StackPanel>
+        <ProgressBar x:Name="progressBar" Height="30" Margin="10" 
+                     Value="{Binding Wartosc, Mode=OneWay}" Maximum="255" 
+                     Foreground="{Binding Path=Wartosc, Converter={StaticResource d2b}}"></ProgressBar>
+        <Slider  Height="20" HorizontalAlignment="Stretch"  Margin="10,0,10,10" Maximum="255" Value="{Binding Path=Wartosc, Mode=TwoWay}"></Slider>
+        <StackPanel Orientation="Horizontal">
+            <Button Content="Resetuj" Width="100" HorizontalAlignment="Left" Margin="10,0,10,0" Height="20" Command="{Binding Resetuj}"/>
+
+        </StackPanel>
+    </StackPanel>
+</Window>

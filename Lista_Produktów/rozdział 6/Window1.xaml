@@ -1,0 +1,76 @@
+﻿<Window x:Class="rozdział_6.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:rozdział_6"
+        mc:Ignorable="d"
+        Title="Window1" Height="350" Width="500">
+    <Grid x:Name="gridProdukt">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="4*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Label Grid.Row="0" Grid.Column="0" 
+               HorizontalAlignment="Left" VerticalAlignment="Center"
+               Margin="10"
+               FontSize="16" FontWeight="Bold"
+               Content="Symbol:"></Label>
+        
+        <Label Grid.Row="1" Grid.Column="0" 
+               HorizontalAlignment="Left" VerticalAlignment="Center"
+               Margin="10"
+               FontSize="16" FontWeight="Bold"
+               Content="Nazwa:"></Label>
+        
+        <Label Grid.Row="2" Grid.Column="0" 
+               HorizontalAlignment="Left" VerticalAlignment="Center"
+               Margin="10"
+               FontSize="16" FontWeight="Bold"
+               Content="Liczba Sztuk:"></Label>
+        
+        <Label Grid.Row="3" Grid.Column="0" 
+               HorizontalAlignment="Left" VerticalAlignment="Center"
+               Margin="10"
+               FontSize="16" FontWeight="Bold"
+               Content="Magazyn:"></Label>
+
+        <TextBox Grid.Row="0" Grid.Column="1"
+                 HorizontalAlignment="Stretch" VerticalAlignment="Center"
+                 FontSize="16"
+                 Margin="10"
+                 Text="{Binding Symbol}"></TextBox>
+
+        <TextBox Grid.Row="1" Grid.Column="1"
+                 HorizontalAlignment="Stretch" VerticalAlignment="Center"
+                 FontSize="16"
+                 Margin="10"
+                 Text="{Binding Nazwa}"></TextBox>
+
+
+        <TextBox Grid.Row="2" Grid.Column="1"
+                 HorizontalAlignment="Stretch" VerticalAlignment="Center"
+                 FontSize="16"
+                 Margin="10"
+                 Text="{Binding LiczbaSztuk}"></TextBox>
+
+        <TextBox Grid.Row="3" Grid.Column="1"
+                 HorizontalAlignment="Stretch" VerticalAlignment="Center"
+                 FontSize="16"
+                 Margin="10"
+                 Text="{Binding Magazyn}"></TextBox>
+
+        <Button x:Name="btnPotwierdz" 
+                Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2" 
+                VerticalAlignment="Center" HorizontalAlignment="Center" 
+                Content="Potwierdź" Padding="10" Width="150" Click="btnPotwierdz_Click"></Button>
+    </Grid>
+</Window>

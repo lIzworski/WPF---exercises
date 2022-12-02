@@ -1,0 +1,21 @@
+C:\Users\Lucjan\source\repos\WPF Ksiazka\Edycja Produktów\Edycja Produktów\bin\Debug\net6.0-windows\Edycja Produktów.exe
+C:\Users\Lucjan\source\repos\WPF Ksiazka\Edycja Produktów\Edycja Produktów\bin\Debug\net6.0-windows\Edycja Produktów.deps.json
+C:\Users\Lucjan\source\repos\WPF Ksiazka\Edycja Produktów\Edycja Produktów\bin\Debug\net6.0-windows\Edycja Produktów.runtimeconfig.json
+C:\Users\Lucjan\source\repos\WPF Ksiazka\Edycja Produktów\Edycja Produktów\bin\Debug\net6.0-windows\Edycja Produktów.dll
+C:\Users\Lucjan\source\repos\WPF Ksiazka\Edycja Produktów\Edycja Produktów\bin\Debug\net6.0-windows\Edycja Produktów.pdb
+C:\Users\Lucjan\source\repos\WPF Ksiazka\Edycja Produktów\Edycja Produktów\obj\Debug\net6.0-windows\Edycja Produktów.csproj.AssemblyReference.cache
+C:\Users\Lucjan\source\repos\WPF Ksiazka\Edycja Produktów\Edycja Produktów\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\Lucjan\source\repos\WPF Ksiazka\Edycja Produktów\Edycja Produktów\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\Lucjan\source\repos\WPF Ksiazka\Edycja Produktów\Edycja Produktów\obj\Debug\net6.0-windows\Edycja Produktów_MarkupCompile.cache
+C:\Users\Lucjan\source\repos\WPF Ksiazka\Edycja Produktów\Edycja Produktów\obj\Debug\net6.0-windows\Edycja Produktów_MarkupCompile.lref
+C:\Users\Lucjan\source\repos\WPF Ksiazka\Edycja Produktów\Edycja Produktów\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\Lucjan\source\repos\WPF Ksiazka\Edycja Produktów\Edycja Produktów\obj\Debug\net6.0-windows\Edycja Produktów.g.resources
+C:\Users\Lucjan\source\repos\WPF Ksiazka\Edycja Produktów\Edycja Produktów\obj\Debug\net6.0-windows\Edycja Produktów.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucjan\source\repos\WPF Ksiazka\Edycja Produktów\Edycja Produktów\obj\Debug\net6.0-windows\Edycja Produktów.AssemblyInfoInputs.cache
+C:\Users\Lucjan\source\repos\WPF Ksiazka\Edycja Produktów\Edycja Produktów\obj\Debug\net6.0-windows\Edycja Produktów.AssemblyInfo.cs
+C:\Users\Lucjan\source\repos\WPF Ksiazka\Edycja Produktów\Edycja Produktów\obj\Debug\net6.0-windows\Edycja Produktów.csproj.CoreCompileInputs.cache
+C:\Users\Lucjan\source\repos\WPF Ksiazka\Edycja Produktów\Edycja Produktów\obj\Debug\net6.0-windows\Edycja Produktów.dll
+C:\Users\Lucjan\source\repos\WPF Ksiazka\Edycja Produktów\Edycja Produktów\obj\Debug\net6.0-windows\refint\Edycja Produktów.dll
+C:\Users\Lucjan\source\repos\WPF Ksiazka\Edycja Produktów\Edycja Produktów\obj\Debug\net6.0-windows\Edycja Produktów.pdb
+C:\Users\Lucjan\source\repos\WPF Ksiazka\Edycja Produktów\Edycja Produktów\obj\Debug\net6.0-windows\Edycja Produktów.genruntimeconfig.cache
+C:\Users\Lucjan\source\repos\WPF Ksiazka\Edycja Produktów\Edycja Produktów\obj\Debug\net6.0-windows\ref\Edycja Produktów.dll

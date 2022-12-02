@@ -1,0 +1,47 @@
+﻿<Window x:Class="zad2._1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:zad2._1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="AliceBlue">
+        
+        <Button  x:Name="btnClick"
+                 Background="Bisque" 
+                 Foreground="Crimson" 
+                 BorderBrush="Blue" 
+                 Content="Start" 
+                 Margin="250,100,250,250" 
+                 FontSize="25" 
+                 FontWeight="Bold" 
+                 Click="Button_Click"></Button>
+        
+        <Button x:Name="MauseEnter" 
+                Content="Czas" 
+                Margin="250,250,250,100" 
+                FontSize="25" 
+                FontWeight="Bold" 
+                MouseEnter="MauseEnter_MouseEnter"
+                MouseLeave="MauseEnter_MouseLeave"></Button>
+        
+        <Button x:Name="StartON" 
+                Content="Włacz Start" 
+                Margin="486,174,14,176" 
+                FontSize="25" 
+                FontWeight="Bold" 
+                MouseEnter="MauseEnter_MouseEnter"
+                MouseLeave="MauseEnter_MouseLeave" RenderTransformOrigin="0.5,0.5" Click="StartON_Click">
+            
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+    </Grid>
+</Window>
